@@ -67,7 +67,7 @@ hello world2
 hello world3
 </pre>
 
-25. > - rewrites , if we want to append to a file then we have to use >> ( >> - command is used to append to a file if it already exists)
+25. (>-rewrites) , if we want to append to a file then we have to use >> ( >> - command is used to append to a file if it already exists)
 26. cat test1.txt test2.txt test3.txt>>combine.txt
 <pre>
 output:
