@@ -124,4 +124,18 @@ hello
 44. ```cat>>filename.txt``` - creates a new file
 46. ```grep string filename``` - to match strings
 47. ```head``` - shows all lines of a line or first few lines of a file
-48. 
+48. ```head -n 3 temp.txt``` - want to see first 3 lines
+49. ```head -n -1 temp.txt``` - prints all lines except last line
+50. ```head -n 2 temp1.txt temp2.txt``` - show first 2 lines of both files
+51. ```tail -n 3 temp.txt``` - prints last 3 lines of this files
+52. bc - basic calculator mode
+53. -w - word count 
+54. -l - line count 
+55. -c - string count - it would give +1 for newline
+```console
+wc filename
+wc -l filename
+wc -w filename
+wc -c filename
+
+```
