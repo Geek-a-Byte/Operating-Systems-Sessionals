@@ -47,3 +47,7 @@ This command contains some options.
 ■ -l [ use a long listing format ]
 ■ -S [ sort by file size ]
 </pre>
+14. mkdir dir1 dir2 dir3
+15. mkdir -p dir4/dir5/dir6
+16. to write multiple words folder name : mkdir "hello world"
+17. 
