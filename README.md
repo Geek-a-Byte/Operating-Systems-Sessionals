@@ -38,12 +38,12 @@ pwd
 10. go back to previous folder ```cd ..```
 11. we can write ~/Desktop instead of /home/Desktop, hence ~ is a replacement of /home
 12. to make a new folder mkdir
-13. To list information about directory or files : ls
+13. To list information about directory or files : ls (only ls command will not show the hidden files) 
 <pre>
 This command contains some options.
-■ -a[ do not hide entries starting with . ]
-■ -A [ do not list implied . and ..]
-■ -h[ print sizes in human readable format ]
+■ -a [ do not hide entries starting with . ] , a means all files including hidden would be shown
+■ -A [ do not list implied . and .. ] 
+■ -h [ print sizes in human readable format ]
 ■ -l [ use a long listing format ]
 ■ -S [ sort by file size ]
 </pre>
