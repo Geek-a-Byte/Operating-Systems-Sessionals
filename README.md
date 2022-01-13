@@ -137,5 +137,14 @@ wc filename
 wc -l filename
 wc -w filename
 wc -c filename
-
 ```
+## Shell scripts
+
+collections of commands will be written in a .sh file. then execute to see the results
+to open the file ```gedit filename.sh```
+```
+pwd
+echo "hello"
+ls
+```
+
