@@ -47,6 +47,7 @@ This command contains some options.
 ■ -l [ use a long listing format ]
 ■ -S [ sort by file size ]
 </pre>
+
 14. mkdir dir1 dir2 dir3
 15. mkdir -p dir4/dir5/dir6
 16. to write multiple words folder name : mkdir "hello world" or mkdir file.\ name1 (not sure about this one)
@@ -64,7 +65,7 @@ output:
 hello world1
 hello world2
 hello world3
-<pre>
+</pre>
 
 25. > - rewrites , if we want to append to a file then we have to use >> ( >> - command is used to append to a file if it already exists)
 26. cat test1.txt test2.txt test3.txt>>combine.txt
@@ -76,7 +77,7 @@ hello world3
 hello world1
 hello world2
 hello world3
-<pre>
+</pre>
 
 27. if the file size is bigger then seeing the contents might be difficult so write : less file-path
 28. to see more : more file-path
