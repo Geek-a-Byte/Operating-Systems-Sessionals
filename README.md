@@ -101,3 +101,27 @@ hello world2
 hello world3
 hello
 </pre>
+
+35. ```wc -l test1.txt``` - counts the line no of test1.txt
+36. ```cat combine.txt|uniq|wc -l``` - counts the unique line no of this file but this can remove duplicate lines if they are one after another. if the duplicate lines are not consecutive then it will show the total line count.
+37. ```sort combine.txt|uniq|wc -l```- sorts the duplicate lines and prints the actual unique count. in this case it will print 6
+38. ```mv test1.txt dir2``` - cut paste
+38. ```cp test1.txt dir2``` - copy paste
+39. ```mv test1.txt nazia.txt``` - renames a file
+40. there are 3 types person to give permission of a file : user, group, other
+41. ```chmod 664 test1.txt``` - helps to change permission of a file 
+<pre>
+7 - rwx
+6 - rw
+5 - rx
+4 - r
+2 - w
+1 - x
+0 - no permission
+</pre>
+42. ```ls -l filename``` - shows permission list of all the persons
+43. ```touch filename``` - creates an empty file
+44. ```cat>>filename.txt``` - creates a new file
+46. ```grep string filename``` - to match strings
+47. ```head``` - shows all lines of a line or first few lines of a file
+48. 
