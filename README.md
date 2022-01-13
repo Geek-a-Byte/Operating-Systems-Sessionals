@@ -82,5 +82,22 @@ hello world3
 27. if the file size is bigger then seeing the contents might be difficult so write : less file-path
 28. to see more : more file-path
 29. to delete a file : rm filename.txt
-30. 
+30. to delete a directory if nothing is there : rmdir dir1
+31. to delete a directory if something is there : rmdir -r dir1
+32. echo "hello" > test_1.txt
+33. cat test?.txt
+<pre>
+output:
+hello world1
+hello world2
+hello world3
+</pre>
+34. cat test*.txt
 
+<pre>
+output:
+hello world1
+hello world2
+hello world3
+hello
+</pre>
