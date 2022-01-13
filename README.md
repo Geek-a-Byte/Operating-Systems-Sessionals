@@ -49,5 +49,37 @@ This command contains some options.
 </pre>
 14. mkdir dir1 dir2 dir3
 15. mkdir -p dir4/dir5/dir6
-16. to write multiple words folder name : mkdir "hello world"
-17. 
+16. to write multiple words folder name : mkdir "hello world" or mkdir file.\ name1 (not sure about this one)
+17. terminal commmands save into txt file : ls>output.txt (> - sends output to file instead of the terminal window)
+18. to see the contents of a file : cat name.txt
+19. echo "hello world" - prints hello world in the terminal
+20. echo "hello world1">test1.txt
+21. echo "hello world2">test2.txt
+22. echo "hello world3">test3.txt
+23. cat test1.txt test2.txt test3.txt>combine.txt
+24. cat combine.txt
+
+<pre>
+output:
+hello world1
+hello world2
+hello world3
+<pre>
+
+25. > - rewrites , if we want to append to a file then we have to use >> ( >> - command is used to append to a file if it already exists)
+26. cat test1.txt test2.txt test3.txt>>combine.txt
+<pre>
+output:
+hello world1
+hello world2
+hello world3
+hello world1
+hello world2
+hello world3
+<pre>
+
+27. if the file size is bigger then seeing the contents might be difficult so write : less file-path
+28. to see more : more file-path
+29. to delete a file : rm filename.txt
+30. 
+
