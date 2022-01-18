@@ -30,7 +30,23 @@
 
 <h3> How does a program run</h3>
 
-- as a program will be executed by CPU, 
+- as a program will be executed by CPU, so instructions are written into memory
+- then interacts with several device for instance, for input it interacts with input device, for monitoring output it interacts with monitor, there is a management system for other devices so that the CPU can decide which task will be held before another task.
+- A manager needs to have three knowledges: Understand how components work, Manage them wisely, Allocate them efficiently.
+
+<h3> CPU Modes</h3>
+
+- cpu works in two modes : 
+- User mode : if a user runs an application, then it is run on user mode
+- Kernel Mode : If a user runs different application, then kernel mode allows him to access its components if needed at that time. 
+- In general, Os works in Kernel mode, as this mode completely does work of OS.
+- to read input, we write scanf, request for the library function needed for scanf is sent to the OS, at that time, OS switches from user mode to kernel mode. Os then provides necessary hardware resources.
+
+## Roles of OS
+
+### Extended machine
+
+
 ### work of OS
 - resourse allocation and deallocation 
 - external device management
