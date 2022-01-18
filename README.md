@@ -46,6 +46,49 @@
 
 ### Extended machine
 
+- OS controls the hard disc by managing the whole file system of hard disc. When read/write on a file, we can't see where the changes happen in hard disc.
+
+### Resource Manager
+
+- when a printer gets print command from multiple programs, then OS handles the ordering of printing.
+
+### Types of resource sharing
+
+- Time MUX : If the processes alternately use RAM.
+- Space MUX : If the processes share space in RAM.
+
+### How cpu runs multiple processes at the same time
+
+- cpu controls which program will currently run through PC and IR.
+- Cpu runs that program which is currently pointed by IR.
+
+### Kernel
+
+### Dual Mode
+
+## Kernel Mode
+
+- the processes in which a CPU uses low level language, those are run in kernel mode. there is a mode bit in processor, through which the processor controls which mode is currently turned on.
+
+## User Mode
+
+- User mode has limited access/permissions to hardware features and instructions
+
+### why use two modes
+
+- for security purposes. to protect the components of OS and the OS itself.
+- If something happens to OS, we would not be able to run any application, so OS cannot be protected by keeping it in an user environment
+
+### when CPU executes on kernel mode
+
+- when PC turns on, the os loads. this period CPU executed on kernel mode.
+- in occasion of system boot
+- in occasion of any interrupt ( external device add/detach )
+- in occasion of any trap (software generated interrupt like error/while taking input)
+
+### DUAL MODE OPERATION
+
+- user program takes service of kernel mode through a system call.the trap instruction of system call changed the mode bit.
 
 ### work of OS
 - resourse allocation and deallocation 
