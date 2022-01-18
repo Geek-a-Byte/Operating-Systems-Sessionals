@@ -1,5 +1,36 @@
 # Operating-Systems
+## introduction
+<h3>process management</h3>
 
+  - how multiple process runs
+<h3>Scheduling</h3> 
+
+  - which process runs at which time
+<h3>Cricital Section</h3>
+
+  - if two process run together, then harm can be caused to data
+<h3>Deadlock</h3>
+
+  - If process A depends on process B and process B depends on process C, and process C depends on process A, deadlock can happen.
+<h3>How do we use computer without operating system</h3>
+
+  - User have to spend more time on CPU
+  - User have to decide space management of hard disc
+  - User have to walk with wire :|
+  - Scheduling needs to be done by the user
+  - Can't process multiple tasks.
+
+<h3> How does OS help</h3>
+
+  - gives user an interface where user can run or execute different applications
+
+<h3> Kernel Mode </h3>
+
+  - more secure than user mode
+
+<h3> How does a program run</h3>
+
+- as a program will be executed by CPU, 
 ### work of OS
 - resourse allocation and deallocation 
 - external device management
